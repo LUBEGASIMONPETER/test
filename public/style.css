@@ -1,0 +1,49 @@
+* {
+	background: rgb(250, 250, 249);
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", georgia, Arial, sans-serif;
+	line-height: 1.5;
+}
+
+section {
+	width: 100%;
+	display: flex;
+}
+
+.left, .right {
+	width: 50%;
+}
+
+img {
+	width: 100%;
+	height: 100vh;
+}
+
+.right {
+	text-align: center;
+	padding: 80px;
+	padding-top: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+input, button
+{
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid gray;
+}
+
+button {
+	width: auto;
+	float: left;
+}
